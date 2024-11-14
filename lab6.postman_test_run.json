@@ -1,0 +1,84 @@
+{
+	"id": "3c06630e-5e84-4454-a759-da2ef821a925",
+	"name": "lab6",
+	"timestamp": "2024-11-14T08:51:02.061Z",
+	"collection_id": "38715618-f92e1424-387c-44e0-86b2-172e8d11c410",
+	"folder_id": 0,
+	"environment_id": "38715618-bdf41872-fa07-4b66-821f-c01fd594a6d9",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-14T08:51:00.714Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8f5cc511-6f1c-471a-bd96-3be23f3fbd63",
+			"name": "Register user",
+			"url": "https://reqres.in/api/users\n",
+			"time": 386,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				386
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "8a88d2bb-a4f4-44b6-b2cb-bb8139b20fc7",
+			"name": "Register user",
+			"url": "https://reqres.in/api/users",
+			"time": 367,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				367
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 753,
+	"collection": {
+		"requests": [
+			{
+				"id": "8f5cc511-6f1c-471a-bd96-3be23f3fbd63",
+				"method": "POST"
+			},
+			{
+				"id": "8a88d2bb-a4f4-44b6-b2cb-bb8139b20fc7",
+				"method": "POST"
+			}
+		]
+	}
+}

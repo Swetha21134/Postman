@@ -1,0 +1,84 @@
+{
+	"id": "8c80fe54-b3bd-4ca6-a0cd-d39833164ab5",
+	"name": "Lab4",
+	"timestamp": "2024-11-14T08:53:56.053Z",
+	"collection_id": "38715618-70b3c502-d70c-4306-b26b-c2217186e453",
+	"folder_id": 0,
+	"environment_id": "38715618-bdf41872-fa07-4b66-821f-c01fd594a6d9",
+	"totalPass": 2,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-14T08:53:51.753Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bb4a7326-a084-4b9d-aeb6-5346c335ee38",
+			"name": "GET_Listuser",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 3236,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3236
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ae1d618c-0a48-4a23-be8d-05e5129f2e49",
+			"name": "POST_USer",
+			"url": "https://reqres.in/api/users?page=2",
+			"time": 444,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				444
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3680,
+	"collection": {
+		"requests": [
+			{
+				"id": "bb4a7326-a084-4b9d-aeb6-5346c335ee38",
+				"method": "GET"
+			},
+			{
+				"id": "ae1d618c-0a48-4a23-be8d-05e5129f2e49",
+				"method": "POST"
+			}
+		]
+	}
+}
